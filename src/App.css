@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+body {
+  background-color: #191825;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  width: 300px;
+  height: 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cartPh, .icon {
+  width: 50px;
+  height: 50px;
+} 
+
+.typeButton:hover {
+  text-shadow: 0 0 30px #AD7BE9,0 0 40px #AD7BE9,0 0 30px #AD7BE9,0 0 40px #AD7BE9;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.typeButtonSelected:hover {
+  text-shadow: 0 0 30px #645CBB,0 0 40px #645CBB,0 0 30px #645CBB,0 0 40px #645CBB;
+
+}
+
+.typeButtonSelected {
+  text-shadow: 0 0 30px #645CBB,0 0 40px #645CBB,0 0 30px #645CBB,0 0 40px #645CBB;
+  cursor: pointer;
+}
+
+.AllCategories {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(https://3djungle.ru/upload/resize_cache/iblock/2ef/200_200_1/2efbde5eea73f55b444881939137a941.jpg);
+  padding: 50px;
+}
+
+.header {
+  font-size: 40px;
+  color: #EEEEEE;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align: center;
+  text-shadow: #AD7BE9 1px 0 10px;
+}
+
+.items {
+  color: #EEEEEE;
+  font-size: 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align: center;
+  text-shadow: #AD7BE9 1px 0 10px;
+}
+
+.Goods {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name {
+  color: #EEEEEE;
+  font-size: 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.quant {
+  color: #EEEEEE;
+  font-size: 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  padding: 5px;
+}
+
+button {
+  background-color: #ad7be9b2;
+  color: #EEEEEE;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
